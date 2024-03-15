@@ -340,7 +340,7 @@ class TabStopList(AttributeType, list):
 
     @classmethod
     def doc_format(cls):
-        return ('a comma-seperated list of tab stops. A tab stop is specified '
+        return ('a comma-separated list of tab stops. A tab stop is specified '
                 'as ``<position> [align] [fill string]``, where '
                 '``position`` (:class:`.Dimension`) is required and '
                 '``align`` (:class:`.TabAlign`) and ``fill string`` '

@@ -79,6 +79,7 @@ matcher('graphviz code block', Paragraph.like('graphviz'))
 matcher('attribution', Paragraph.like('attribution'))
 matcher('centered', Paragraph.like('centered'))
 matcher('line block', Paragraph.like('line block'))
+matcher('nested line block', SelectorByName('line block') / Paragraph)
 
 matcher('block quote', GroupedFlowables.like('block quote'))
 

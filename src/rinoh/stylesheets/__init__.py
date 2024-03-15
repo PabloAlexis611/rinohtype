@@ -34,6 +34,7 @@ sphinx_base14 = StyleSheetFile(path('base14.rts'))
 
 sphinx_article_base14 = StyleSheetFile(path('article_base14.rts'))
 
+ieee = StyleSheetFile(path('ieee.rts'))
 
 # generate docstrings for the StyleSheet instances
 
